@@ -1,11 +1,14 @@
-import React from "react";
+import { React, useState } from "react";
 import User from './User';
 import Password from "./Password";
 
 const Login = () => {
+    const [user, setUser] = useState('');
+    const [password, setPassword] = useState('');
+
     retrun(
         <div>
-            <User />
+            <User onUserChange={setUser} />
             <Password />
         </div>
     )
