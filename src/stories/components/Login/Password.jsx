@@ -1,13 +1,13 @@
 import React from "react";
 
 const Password = () => {
-    const onUserCompleteChange {
+    /* const onUserCompleteChange {
 
-    }
+    } */
 
     return (
 
-        <div>
+        <div className={passwordContainer}>
             Password:
             <>
                 <input type="text" />

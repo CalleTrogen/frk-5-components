@@ -1,15 +1,17 @@
 import { React, useState } from "react";
 import User from './User';
 import Password from "./Password";
+import Button from "./Button";
 
 const Login = () => {
     const [user, setUser] = useState('');
     const [password, setPassword] = useState('');
 
     retrun(
-        <div>
+        <div className={styles.loginContainer}>
             <User onUserChange={setUser} />
-            <Password />
+            <Password onUserChange={setPassword} />
+            <Button />
         </div>
     )
 }

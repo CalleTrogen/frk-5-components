@@ -1,14 +1,14 @@
 import React from "react";
 
-const User = ({ onSetUse }) => {
+const User = ({ onUserChange }) => {
 
-    const onUserComplete = () => {
+    const onUserComplete = (e) => {
         onUserChange(e.target.value)
         console.log(e.target.value)
     }
 
     return (
-        <div>
+        <div className={userContainer}>
             User
             <>
                 <input type="text" />
