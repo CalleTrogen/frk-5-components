@@ -6,7 +6,7 @@ const User = ({ onUserChange }) => {
         console.log(e.target.value);
     }
     return (
-        <div className="userContainer">
+        <div className={styles.userContainer}>
             <label htmlFor="username">User</label>
             <input type='text' placeholder="Username" id="username" onBlur={onUserComplete}></input>
         </div>
