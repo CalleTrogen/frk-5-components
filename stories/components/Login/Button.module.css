@@ -1,0 +1,28 @@
+.loginButton {
+    background-color: #4CAF50 !important;
+    /* För att säkerställa att bakgrundsfärgen tillämpas */
+    color: white !important;
+    /* Åsidosätter eventuell annan färg */
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    width: 200px !important;
+    font-size: 16px !important;
+    display: inline-block !important;
+    /* Se till att knappen visas som block */
+    text-align: center !important;
+    /* Säkerställer att texten är centrerad */
+}
+
+button {
+    display: inline-block !important;
+    /* För att säkerställa att knappen visas korrekt */
+    visibility: visible !important;
+    /* Om det fanns en regel som gjorde den osynlig */
+}
+
+
+.loginButton:hover {
+    background-color: #45a049;
+}

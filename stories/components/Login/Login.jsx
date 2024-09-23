@@ -1,7 +1,8 @@
 import User from './User'
 import Password from './Password'
-import { useState, React } from 'react'
-import styles from 'Login.module.css'
+import styles from './Button.module.css'
+import { useState } from 'react'
+import styles from './Login.module.css';
 
 const Login = () => {
     const [user, setUser] = useState('')
@@ -9,11 +10,11 @@ const Login = () => {
     return (
         <div className={styles.loginContainer}>
             <h1 className={styles.loginHeader}>Log in</h1>
-            <button className={styles.loginButton}>Login</button>
             <div>
                 <User onUserChange={setUser} />
                 <Password onPasswordChange={setPassword} />
             </div>
+            <button className={styles.loginButton}></button>
         </div>
     )
 }

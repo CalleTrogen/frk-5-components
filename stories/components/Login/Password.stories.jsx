@@ -5,6 +5,4 @@ export default {
     component: Password,
 }
 
-export const Default = {
-
-};
+export const Default = {};
