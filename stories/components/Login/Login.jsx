@@ -1,7 +1,6 @@
 import User from './User'
 import Password from './Password'
-import { useState } from 'react'
-import React from 'react'
+import { useState, React } from 'react'
 import styles from 'Login.module.css'
 
 const Login = () => {
