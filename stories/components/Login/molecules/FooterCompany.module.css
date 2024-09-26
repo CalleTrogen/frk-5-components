@@ -1,0 +1,26 @@
+.gridItem {
+    font-family: Arial, sans-serif;
+}
+
+.gridItem h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.gridItem ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gridItem li {
+    margin-bottom: 8px;
+}
+
+.gridItem a {
+    color: #333;
+    text-decoration: none;
+}
+
+.gridItem a:hover {
+    text-decoration: underline;
+}

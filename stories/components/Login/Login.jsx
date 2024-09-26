@@ -2,7 +2,6 @@ import User from './User'
 import Password from './Password'
 import styles from './Button.module.css'
 import { useState } from 'react'
-import styles from './Login.module.css';
 
 const Login = () => {
     const [user, setUser] = useState('')

@@ -5,6 +5,4 @@ export default {
     component: Login,
 }
 
-export const Default = {
-
-};
+export const Default = {};
