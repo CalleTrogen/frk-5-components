@@ -1,0 +1,29 @@
+/* Extern CSS-fil */
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+.userContainer input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.userContainer input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    /* Grön färg på focus */
+}
+
+.userContainer label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
