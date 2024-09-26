@@ -1,6 +1,7 @@
 import React from 'react';
-import FooterCompany from './FooterCompany';
-import FooterSocial from './FooterSocial';
+import FooterCompany from '../molecules/FooterCompany';
+import FooterSocial from '../molecules/FooterSocial';
+import Navigate from '../molecules/FooterNavigate'; // Importera Navigate-komponenten
 import styles from './Footer.module.css';
 
 const Footer = () => {
@@ -15,6 +16,8 @@ const Footer = () => {
                     gap: '20px', // Mellanrum mellan kolumner
                 }}
             >
+                {/* Placera Navigate först, längst till vänster */}
+                <Navigate />
                 <FooterCompany /> {/* Företagslänkar */}
                 <FooterSocial /> {/* Sociala medielänkar */}
             </div>
