@@ -1,10 +1,9 @@
-// Navigate.jsx
 import React from 'react';
-import styles from './FooterNavigate.module.css'; // Skapa separat CSS-fil om du behöver styla
+import styles from './FooterNavigate.module.css'; // Använda CSS-modul
 
-const Navigate = () => {
+const FooterNavigate = () => {
     return (
-        <div className={styles.navigateContainer}>
+        <div className={styles.footerContainer}>
             <h3 className={styles.title}>Navigate</h3>
             <ul className={styles.linkList}>
                 <li><a href="#home">Home</a></li>
@@ -15,4 +14,4 @@ const Navigate = () => {
     );
 };
 
-export default Navigate;
+export default FooterNavigate;

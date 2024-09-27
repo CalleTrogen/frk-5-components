@@ -5,4 +5,7 @@ export default {
     component: FooterCompany,
 }
 
-export const Default = {};
+const Template = (args) => <FooterCompany {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {};  // Inga argument om komponenten inte tar props

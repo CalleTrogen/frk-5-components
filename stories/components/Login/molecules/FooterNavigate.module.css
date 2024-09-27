@@ -1,21 +1,20 @@
 .footerContainer {
+    margin: 10px;
     padding: 20px;
     background-color: #f8f8f8;
-}
-
-.footerSection {
-    margin: 10px;
 }
 
 .title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .linkList {
     list-style-type: none;
     padding: 0;
+    font-family: verdana;
 }
 
 .linkList li {
@@ -29,6 +28,5 @@
 }
 
 .linkList li a:hover {
-    color: #007bff;
-    /* Blir blå vid hovring */
+    color: #B99976;
 }

@@ -9,4 +9,4 @@ export default {
 const Template = (args) => <Footer {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {}; // Om Footer behöver props kan du lägga till dem här
+Default.args = {};  // Inga argument om komponenten inte tar props

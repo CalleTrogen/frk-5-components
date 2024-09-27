@@ -1,26 +1,32 @@
-.gridItem {
-    font-family: Arial, sans-serif;
+.footerContainer {
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8f8f8;
 }
 
-.gridItem h4 {
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.gridItem ul {
+.linkList {
     list-style-type: none;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.gridItem li {
-    margin-bottom: 8px;
+.linkList li {
+    margin: 5px 0;
 }
 
-.gridItem a {
-    color: #333;
+.linkList li a {
     text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
 }
 
-.gridItem a:hover {
-    text-decoration: underline;
+.linkList li a:hover {
+    color: #B99976;
 }

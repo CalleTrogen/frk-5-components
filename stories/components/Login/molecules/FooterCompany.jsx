@@ -1,22 +1,14 @@
 import React from 'react';
-import styles from './FooterCompany.module.css';
+import styles from './FooterCompany.module.css'; // Använda CSS-modul
 
 const FooterCompany = () => {
-    const companyLinks = [
-        { label: 'About Us', href: '/about' },
-        { label: 'Products', href: '/products' },
-        { label: 'Partners', href: '/partners' },
-    ];
-
     return (
-        <div className={styles.gridItem}>
-            <h4>Company</h4>
-            <ul>
-                {companyLinks.map((link, index) => (
-                    <li key={index}>
-                        <a href={link.href}>{link.label}</a>
-                    </li>
-                ))}
+        <div className={styles.footerContainer}>
+            <h3 className={styles.title}>Company</h3>
+            <ul className={styles.linkList}>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     );
