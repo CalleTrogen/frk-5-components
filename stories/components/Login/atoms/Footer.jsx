@@ -1,7 +1,7 @@
 import React from 'react';
 import FooterCompany from '../molecules/FooterCompany';
 import FooterSocial from '../molecules/FooterSocial';
-import Navigate from '../molecules/FooterNavigate'; // Importera Navigate-komponenten
+import FooterNavigate from '../molecules/FooterNavigate';
 import styles from './Footer.module.css';
 
 const Footer = () => {
@@ -12,14 +12,13 @@ const Footer = () => {
                 className={styles.gridContainer}
                 style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(3, 1fr)', // Tre kolumner för layout
-                    gap: '20px', // Mellanrum mellan kolumner
+                    gridTemplateColumns: 'repeat(3, 1fr)',  // Tre kolumner för layout
+                    gap: '20px',  // Mellanrum mellan kolumner
                 }}
             >
-                {/* Placera Navigate först, längst till vänster */}
-                <Navigate />
-                <FooterCompany /> {/* Företagslänkar */}
-                <FooterSocial /> {/* Sociala medielänkar */}
+                <FooterNavigate />  {/* Navigationslänkar */}
+                <FooterCompany />   {/* Företagslänkar */}
+                <FooterSocial />    {/* Sociala medielänkar */}
             </div>
         </div>
     );

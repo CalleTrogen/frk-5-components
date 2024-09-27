@@ -1,0 +1,34 @@
+.footerContainer {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.footerSection {
+    margin: 10px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.linkList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.linkList li {
+    margin: 5px 0;
+}
+
+.linkList li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.linkList li a:hover {
+    color: #007bff;
+    /* Blir blå vid hovring */
+}
