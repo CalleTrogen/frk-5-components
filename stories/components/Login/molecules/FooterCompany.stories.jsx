@@ -8,4 +8,4 @@ export default {
 const Template = (args) => <FooterCompany {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {};  // Inga argument om komponenten inte tar props
+Default.args = {}; 

@@ -19,11 +19,9 @@
 .userContainer input:focus {
     outline: none;
     border-color: #4CAF50;
-    /* Grön färg på focus */
 }
 
 .userContainer label {
     font-size: 16px;
-    font-weight: bold;
     margin-bottom: 5px;
 }
